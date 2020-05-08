@@ -8,20 +8,24 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>hexo搭建博客感想 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="article">
+  <meta name="description" content="因为之前有写过博客的缘故，所以对于markdown的语法还是比较熟悉的。">
+<meta property="og:type" content="article">
 <meta property="og:title" content="hexo搭建博客感想">
 <meta property="og:url" content="http://yoursite.com/2020/05/07/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%84%9F%E6%83%B3/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="因为之前有写过博客的缘故，所以对于markdown的语法还是比较熟悉的。">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2020-05-07T13:42:08.000Z">
-<meta property="article:modified_time" content="2020-05-07T13:42:08.722Z">
+<meta property="og:image" content="c:%5CUsers%5Clenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200508193821079.png">
+<meta property="article:published_time" content="2020-05-07T13:42:08.714Z">
+<meta property="article:modified_time" content="2020-05-08T11:56:25.054Z">
 <meta property="article:author" content="A_Dream">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="c:%5CUsers%5Clenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200508193821079.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="icon" href="/img/icon.jpg">
+    <link rel="icon" href="/img/title.jpg">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -41,7 +45,7 @@
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
-    <div class="overlay" style="background: #4d4d4d"></div>
+    <div class="overlay" style="background: rgb(136 172 219)"></div>
     <div class="intrude-less">
         <header id="header" class="inner">
             <a href="/" class="profilepic">
@@ -117,7 +121,7 @@
     <div class="mid-col" q-class="show:isShow,hide:isShow|isFalse">
       
 <nav id="mobile-nav">
-  	<div class="overlay js-overlay" style="background: #4d4d4d"></div>
+  	<div class="overlay js-overlay" style="background: rgb(136 172 219)"></div>
 	<div class="btnctn js-mobile-btnctn">
   		<div class="slider-trigger list" q-on="click: openSlider(e)"><i class="icon icon-sort"></i></div>
 	</div>
@@ -190,14 +194,28 @@
 
         
         <a href="/2020/05/07/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%84%9F%E6%83%B3/" class="archive-article-date">
-  	<time datetime="2020-05-07T13:42:08.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-07</time>
+  	<time datetime="2020-05-07T13:42:08.714Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-07</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>因为之前有写过博客的缘故，所以对于markdown的语法还是比较熟悉的。</p>
+<a id="more"></a>
+
+<p>不过令我感到意外的是，博客居然也可以使用框架来进行搭建，进行相关的配置，神奇。</p>
+<p>对于npm语法我还是了解一些的，所以在搭建的过程中并没有感到有多大的难度。</p>
+<p>特别是此博客使用的yilia主题的配置文件_config.yml里面居然有中文注释，这个可就太人性化了，这样对yilia主题的配置那就比较容易了，特别是yilia主题相关的配置，在这篇博客之中就写得非常的清楚<a href="http://dongshuyan.com/2019/05/24/hexo博客注意事项/#9-鼠标点击小红心设置" target="_blank" rel="noopener">http://dongshuyan.com/2019/05/24/hexo%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/#9-%E9%BC%A0%E6%A0%87%E7%82%B9%E5%87%BB%E5%B0%8F%E7%BA%A2%E5%BF%83%E8%AE%BE%E7%BD%AE</a></p>
+<p>在写这篇博客的过程中我还发现了，格式错误将导致网页上的博客与本地博客不能同步</p>
+<p>不过，在使用hexo框架搭建博客的过程中还是学到了很多，就比如在搭建过程中，顺道还学习了github的相关指令，知道了使用github还可以搭建一个自己的网站，虽然这个网站只能支持静态网页，通过这个网站可以访问自己的github仓库</p>
+<p>在对所有文章进行显示配置时，遇到了一个问题，卡了许久，详见下图：</p>
+<p><img src="C:%5CUsers%5Clenovo%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200508193821079.png" alt="image-20200508193821079"></p>
+<p>就是因为在第一行代码处前面留了一个空格，就导致了所有文章显示失败，只要将第一行的空格去掉就行了。</p>
+<p>写这篇文章的目的也是为了帮助自己更好的记忆有关hexo的相关指令。</p>
+<p>将数据上传到github上面，就不怕数据丢失了</p>
+<p>总之，博客框架真是一个神奇的东西</p>
+
       
 
       
@@ -210,7 +228,7 @@
             <span class="tooltip-content">
               <span class="tooltip-text">
                 <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>你的打赏就是我码字的最大动力<i class="icon icon-quo-right"></i></p>
                   <div class="reward-box">
                     
                     
@@ -230,6 +248,57 @@
 
       
 
+      
+        
+    <div class="share-btn share-icons tooltip-left">
+        <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+            <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+        </div>
+    </div>
+
+    <div class="page-modal wx-share js-wx-box">
+        <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+        <p>扫一扫，分享到微信</p>
+        <div class="wx-qrcode">
+            <img src="//api.qrserver.com/v1/create-qr-code/?size150x150&data=http://yoursite.com/2020/05/07/hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%84%9F%E6%83%B3/" alt="微信分享二维码">
+        </div>
+    </div>
+
+    <div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
@@ -432,27 +501,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
         <ul class="search-ul">
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接1</a>
+              <a href="http://dongshuyan.com/2019/05/24/hexo博客注意事项/#9-鼠标点击小红心设置/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>hexo配置详解</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接2</a>
+              <a href="https://www.w3school.com.cn/tags/tag_table.asp" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>w3school_官方</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接3</a>
+              <a href="https://cn.vuejs.org/index.html" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>vue官方文档</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接4</a>
+              <a href="http://nodejs.cn/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>node官方文档</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接5</a>
+              <a href="https://github.com/fushengsimeng/fushengsimeng.github.io" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>github地址</a>
             </li>
           
             <li class="search-li">
-              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>友情链接6</a>
+              <a href="http://localhost:4000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>手写百度百科</a>
             </li>
           
         </ul>
@@ -537,5 +606,5 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/haru01.model.json"},"display":{"position":"right","width":210,"height":420,"hOffset":0,"vOffset":0},"mobile":{"show":false}});</script></body>
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/haru01.model.json"},"display":{"position":"left","width":210,"height":420,"hOffset":180,"vOffset":0},"mobile":{"show":false}});</script></body>
 </html>
